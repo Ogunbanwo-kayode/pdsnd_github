@@ -12,7 +12,7 @@ def get_filters():
         
         print("Would you like to see data for Chicago, New York City, or Washington?")
         city = input().lower()
-        print("your entry: ", city)
+        print("your entry: ", city.title()) #this would display the result in title case
 
         if city not in CITY_DATA.keys():
             print("\nOops!!! That\'s not a valid a city name, please check your input")
