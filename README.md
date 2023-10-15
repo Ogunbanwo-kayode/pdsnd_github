@@ -5,7 +5,9 @@ This project was credited on **2nd of October 2023**.
 Exploring US Bikeshare data with Python Script
 
 ### Description
-In this project, we explored the BikeShare datasets from 3 cities in the United State to provide **summary statistics (information)** to the _end-user_ based on their input.
+In this project, we explored the BikeShare datasets from 3 cities in the United State to provide **summary statistics (information)** to the _end-user_ based on their input. Such information include;
+* Total trip duration
+* Average trip duration, **e.t.c**
 
 ### Files used
 `BikeShare.py`
