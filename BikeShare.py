@@ -57,7 +57,7 @@ def get_filters():
         print("\nAccepted input:\nDay name; not case sensitive (e.g. monday or MONDAY).\nDay name in title case (e.g. Monday).")
         print("\n(You can also put 'all' or 'All' to view data for all days in a week.)")
         day = input().lower()
-        print(day)
+        print(day.title()) ## this would display the chosen day in title case
     
 
         if day not in day_info:
