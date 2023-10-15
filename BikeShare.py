@@ -150,7 +150,7 @@ def time_stats(df):
     
     
 def station_stats(df):
-    """Displays statistics on the most popular stations and trip."""
+    """Displays summary statistics on the most popular stations and trip."""
 
     print('\nCalculating The Most Popular Stations and Trip...\n')
     import time
@@ -175,7 +175,7 @@ def station_stats(df):
 
     
 def trip_duration_stats(df):
-    """Displays statistics on the total and average trip duration."""
+    """Displays summary statistics on the total and average trip duration."""
 
     print('\nCalculating Trip Duration............\n')
     import time
